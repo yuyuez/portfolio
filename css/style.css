@@ -1,0 +1,952 @@
+/* general container element to constrain content width on wider screens */
+
+
+
+.container {
+
+    padding-right: 15px;
+
+    padding-left: 15px;
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+}
+
+.topMenu {
+
+    padding: 0;
+
+}
+
+#button {
+
+    display: none;
+
+}
+
+.content {
+
+    color: white;
+
+    padding-top: 2.5em;
+
+    padding-left: 1em;
+
+    padding-bottom: 1em;
+
+    font-size: 1em;
+
+    max-width: 50%;
+
+}
+
+header {
+
+    background: linear-gradient(to bottom, #391d18, #814236);
+
+    padding-top: 2.5rem;
+
+}
+
+ul {
+
+    background-color: #391d18;
+
+}
+
+.quotes-container {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.features-container {
+
+    display: flex;
+
+    min-height: 200px;
+
+    flex-wrap: nowrap;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+.features-row {
+
+    width: 100%;
+
+}
+
+.flexbox-container {
+
+    display: flex;
+
+    min-height: 200px;
+
+    flex-wrap: nowrap;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+}
+
+.flex-column {
+
+    flex-basis: auto;
+
+    width: 100%;
+
+}
+
+.card {
+
+    background-color: white;
+
+    border: 1px solid #dfdfdf;
+
+    border-radius: 3px;
+
+    margin-bottom: 10px;
+
+    display: inline-flex;
+
+    flex-direction: row;
+
+}
+
+.itemIcon {
+
+    flex-grow: 1;
+
+}
+
+.itemText {
+
+    flex: 13;
+
+    text-align: left;
+
+}
+
+.itemImg {
+
+    flex-grow: 1;
+
+}
+
+svg {
+
+    fill: #814236;
+
+    width: 50px;
+
+    height: 50px;
+
+    padding-left: 1em;
+
+    float: left;
+
+    margin-top: 1.5em;
+
+}
+
+img {
+
+    border-radius: 50%;
+
+    width: 80px;
+
+    height: 80px;
+
+}
+
+.quotesImg {
+
+    flex: 1;
+
+}
+
+.quotesText {
+
+    flex: 9;
+
+    text-align: left;
+
+    padding-left: 0.5em;
+
+    padding-right: 0.5em;
+
+}
+
+.contentinfo-flex {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.contentinfo-item {
+
+    padding-top: 5%;
+
+    padding-bottom: 1em;
+
+    padding-right: 0;
+
+    flex: 1;
+
+}
+
+.contentinfo-icon {
+
+    padding-top: 0;
+
+    padding-bottom: 1em;
+
+    padding-right: 0;
+
+    flex: 1;
+
+}
+
+body {
+
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+}
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6 {
+
+    font-family: Raleway, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+h1 {
+
+    font-weight: 100;
+
+}
+
+h3 {
+
+    line-height: 0px;
+
+}
+
+p {
+
+    line-height: 1.43;
+
+    margin-bottom: 1rem;
+
+    margin-top: 0;
+
+}
+
+#button {
+
+    background-color: #814236;
+
+    border: 1px solid #391d18;
+
+    color: white;
+
+    padding: 6px 12px;
+
+    font-size: 10px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+}
+
+#button:hover {
+
+    background-color: #5d3027;
+
+}
+
+.topMenu {
+
+    color: #fff;
+
+}
+
+ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    width: 100%;
+
+    padding: 0.5em;
+
+    position: fixed;
+
+    left: 0;
+
+    top: 0;
+
+    z-index: auto;
+
+}
+
+li {
+
+    display: inline;
+
+    padding-left: 10px;
+
+}
+
+a {
+
+    color: #dfdfdf;
+
+    text-decoration: none;
+
+}
+
+a:focus {
+
+    background-color: white;
+
+}
+
+a:active {
+
+    background-color: white;
+
+}
+
+a:hover {
+
+    background-color: white;
+
+}
+
+.cart {
+
+    float: right;
+
+    padding-right: 1.5em;
+
+}
+
+h2 {
+
+    padding-top: 5%;
+
+    font-variant: small-caps;
+
+    color: black;
+
+    position: center;
+
+    text-align: center;
+
+    margin-top: 0;
+
+}
+
+.secColor {
+
+    background-color: #f8f8f8;
+
+}
+
+.quotes-card {
+
+    display: inline-flex;
+
+    flex-direction: row;
+
+    margin-bottom: 1em;
+
+    width: 100%;
+
+}
+
+.use-card {
+
+    background-color: white;
+
+    border: 1px solid #dfdfdf;
+
+    border-radius: 3px;
+
+    margin-bottom: 1em;
+
+    display: block;
+
+}
+
+.usesColor {
+
+    background-color: #ebebeb;
+
+}
+
+.bookNote {
+
+    height: 150px;
+
+    background: url('../img/note-taking.jpg') no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.art {
+
+    height: 150px;
+
+    background: url('../img/art.jpg') no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.drafting  {
+
+    height: 150px;
+
+    background: url('../img/drafting.jpg') no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.coloring {
+
+    height: 150px;
+
+    background: url('../img/coloring.jpg') no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+.ad .as {
+
+    height: 150px;
+
+    background: url('../img/coloring.jpg') no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+}
+
+a { color: inherit; }
+
+.textSpace {
+
+    margin-top: 12px;
+
+    margin-left: 12px;
+
+}
+
+.smaller {
+
+    font-size: 80%;
+
+    color: #999999;
+
+}
+
+footer {
+
+    background-color: #391d18;
+
+    color: #eeeeee;
+
+}
+
+footer a {
+
+    color: #aaaaaa;
+
+}
+
+.quotesColor {
+
+    background: #dfdfdf;
+
+}
+
+.contentinfo-item a {
+
+    float: right;
+
+}
+
+@media (min-width: 768px) {
+
+    .container {
+
+        min-width: 100%;
+
+    }
+
+    .topMenu a {
+
+        position: relative;
+
+        left: -10000px;
+
+        top: auto;
+
+        width: 1px;
+
+        height: 1px;
+
+        overflow: hidden;
+
+    }
+
+    ul {
+
+        background-color: transparent;
+
+    }
+
+    #button {
+
+        display: inline-block;
+
+    }
+
+    .content {
+
+        color: black;
+
+        font-size: 0.8em;
+
+        padding-left: 2em;
+
+        padding-bottom: 2em;
+
+    }
+
+    header {
+
+        background: url('../img/pencil-header-sm.jpg') no-repeat;
+
+        background-position: center bottom;
+
+        padding-top: 0;
+
+        background-size: cover;
+
+    }
+
+    .features-container {
+
+        display: flex;
+
+        min-height: 200px;
+
+        flex-wrap: wrap;
+
+        align-items: center;
+
+        justify-content: center;
+
+        flex-direction: row;
+
+    }
+
+    .features-row {
+
+        width: 45%;
+
+        height: 210px;
+
+    }
+
+    .card2,
+
+    .card4 {
+
+        margin-left: 10px;
+
+    }
+
+    .footer-container {
+
+        float: right;
+
+        display: flex;
+
+        min-height: 1rem;
+
+        flex-wrap: nowrap;
+
+        align-items: center;
+
+        justify-content: space-between;
+
+        flex-direction: row;
+
+        overflow: visible;
+
+    }
+
+    .card {
+
+        flex-direction: column;
+
+    }
+
+    .itemIcon {
+
+        flex: 1;
+
+    }
+
+    .itemText {
+
+        flex: 5;
+
+        text-align: center;
+
+        padding-left: 0.5em;
+
+        padding-right: 0.5em;
+
+    }
+
+    svg {
+
+        width: 100%;
+
+        padding-left: 0px;
+
+        margin-top: 0.5em;
+
+        float: none;
+
+    }
+
+    .contentinfo-flex {
+
+        flex-direction: row;
+
+    }
+
+    .contentinfo-item {
+
+        flex: 8;
+
+    }
+
+    .contentinfo-icon {
+
+        flex: 1;
+
+        padding-top: 5%;
+
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .container {
+
+        width: 970px;
+
+    }
+
+    #button {
+
+        display: inline-block;
+
+    }
+
+    .content {
+
+        color: black;
+
+        font-size: 1em;
+
+        padding-left: 2em;
+
+        padding-bottom: 2em;
+
+    }
+
+    .topMenu a {
+
+        position: relative;
+
+        left: -10000px;
+
+        top: auto;
+
+        width: 1px;
+
+        height: 1px;
+
+        overflow: hidden;
+
+    }
+
+    ul {
+
+        background-color: transparent;
+
+    }
+
+    header {
+
+        background: url('../img/pencil-header-md.jpg') no-repeat;
+
+        background-position: center bottom;
+
+        padding-top: 0;
+
+        background-size: cover;
+
+    }
+
+    .quotes-container {
+
+        flex-direction: row;
+
+    }
+
+    .quotes-card {
+
+        width: 30%;
+
+    }
+
+    .flexbox-container {
+
+        display: flex;
+
+        min-height: 200px;
+
+        flex-wrap: wrap;
+
+        align-items: center;
+
+        justify-content: center;
+
+        flex-direction: row;
+
+    }
+
+    .flex-column {
+
+        width: 45%;
+
+    }
+
+    .textSpace {
+
+        height: 8.5em;
+
+    }
+
+    .secondUse {
+
+        margin-left: 1.25em;
+
+    }
+
+    .fourthUse {
+
+        margin-left: 1.25em;
+
+    }
+
+    .quotesImg {
+
+        flex: 1;
+
+    }
+
+    .quotesText {
+
+        flex: 15;
+
+    }
+
+    img {
+
+        border-radius: 50%;
+
+        width: 50px;
+
+        height: 50px;
+
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+
+        width: 1170px；
+
+    }
+
+    #button {
+
+        display: inline-block;
+
+    }
+
+    .content {
+
+        color: black;
+
+        font-size: 1em;
+
+        padding-left: 2em;
+
+        padding-bottom: 2em;
+
+    }
+
+    .topMenu a {
+
+        position: relative;
+
+        left: -10000px;
+
+        top: auto;
+
+        width: 1px;
+
+        height: 1px;
+
+        overflow: hidden;
+
+    }
+
+    ul {
+
+        background-color: transparent;
+
+    }
+
+    header {
+
+        background: url('../img/pencil-header-lg.jpg') no-repeat;
+
+        background-position: center bottom;
+
+        padding-top: 0;
+
+        background-size: cover;
+
+    }
+
+    .features-container {
+
+        display: flex;
+
+        min-height: 200px;
+
+        flex-wrap: wrap;
+
+        align-items: center;
+
+        justify-content: center;
+
+        flex-direction: row;
+
+    }
+
+    .features-row {
+
+        width: 23%;
+
+        height: 17rem;
+
+    }
+
+    .card2,
+
+    .card3,
+
+    .card4 {
+
+        margin-left: 10px;
+
+    }
+
+}
+
+.typewriter span {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+/* Your CSS rules go here */
