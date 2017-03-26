@@ -251,6 +251,9 @@ img {
     .fourthUse {
         margin-left: 1.25em;
     }
+    .sixthUse {
+        margin-left: 1.25em;
+    }
     .quotesImg {
         flex: 1;
     }
@@ -396,7 +399,9 @@ h2 {
 .firstUse,
 .secondUse,
 .thirdUse,
-.fourthUse {
+.fourthUse,
+.fifthUse,
+.sixthUse {
     background-color: white;
     border: 1px solid #dfdfdf;
     border-radius: 3px;
@@ -418,7 +423,7 @@ h2 {
     background-position: center;
     background-size: cover;
 }
-.drafting {
+.drafting, .ad, .as {
     height: 150px;
     background: url('../img/drafting.jpg') no-repeat;
     background-position: center;
@@ -456,5 +461,5 @@ footer a {
 }
 
 a{
-  color:inherit;
+  color:inherit;s
 }
