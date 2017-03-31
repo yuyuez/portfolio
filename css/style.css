@@ -80,7 +80,7 @@ svg {
     float: left;
     margin-top: 1.5em;
 }
-img {
+.quotesUmg img {
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -261,9 +261,10 @@ img {
         flex: 15;
     }
     img {
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
+        /*border-radius: 50%;*/
+        width: 700px;
+        height: 700px;
+        text-align: center;
     }
 }
 @media (min-width: 1200px) {
@@ -461,5 +462,5 @@ footer a {
 }
 
 a{
-  color:inherit;s
+  color:inherit;
 }
