@@ -80,10 +80,10 @@ svg {
     float: left;
     margin-top: 1.5em;
 }
-.quotesUmg img {
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
+img {
+    /*border-radius: 50%;*/
+    width: 500px;
+    height: 300px;
 }
 .quotesImg {
     flex: 1;
@@ -190,6 +190,11 @@ svg {
     .contentinfo-item {
         flex: 8;
     }
+    img {
+        /*border-radius: 50%;*/
+        width: 500px;
+        height: 300px;
+    }
     .contentinfo-icon {
         flex: 1;
         padding-top: 5%;
@@ -262,10 +267,14 @@ svg {
     }
     img {
         /*border-radius: 50%;*/
-        width: 700px;
+        width: 900px;
         height: 700px;
-        text-align: center;
     }
+    /*.quotesUmg img {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }*/
 }
 @media (min-width: 1200px) {
     .container {
