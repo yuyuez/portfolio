@@ -92,6 +92,26 @@ svg {
   width: 27em;
   height: 27em;
 }
+.twitter{
+  width: 26em;
+  height: 25em;
+}
+.spotify1{
+  width: 43em;
+  height: 25em;
+}
+.spotify2{
+  width: 43em;
+  height: 13em;
+}
+.spotify3{
+  width: 43em;
+  height: 25em;
+}
+.chat{
+  width: 30em;
+  height: 20em;
+}
 .quotesImg {
     flex: 1;
 }
@@ -273,6 +293,26 @@ svg {
     .memory{
       width: 38em;
       height: 38em;
+    }
+    .spotify1{
+      width: 59em;
+      height: 34em;
+    }
+    .spotify2{
+      width: 59em;
+      height: 17em;
+    }
+    .spotify3{
+      width: 59em;
+      height: 34em;
+    }
+    .twitter{
+      width: 37em;
+      height: 35em;
+    }
+    .chat{
+      width: 53em;
+      height: 33em;
     }
     /*.quotesUmg img {
         border-radius: 50%;
