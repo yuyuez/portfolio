@@ -92,6 +92,14 @@ svg {
   width: 27em;
   height: 27em;
 }
+.final1{
+  width: 30em;
+  height: 15em;
+}
+.final2{
+  width: 30em;
+  height: 10em;
+}
 .twitter{
   width: 26em;
   height: 25em;
@@ -294,6 +302,14 @@ svg {
       width: 38em;
       height: 38em;
     }
+    .final1{
+      width: 53em;
+      height: 23em;
+    }
+    .final2{
+      width: 53em;
+      height: 10em;
+    }
     .spotify1{
       width: 59em;
       height: 34em;
@@ -312,7 +328,7 @@ svg {
     }
     .chat{
       width: 53em;
-      height: 33em;
+      height: 31em;
     }
     /*.quotesUmg img {
         border-radius: 50%;
@@ -449,7 +465,8 @@ h2 {
 .thirdUse,
 .fourthUse,
 .fifthUse,
-.sixthUse {
+.sixthUse,
+.seventhUse {
     background-color: white;
     border: 1px solid #dfdfdf;
     border-radius: 3px;
