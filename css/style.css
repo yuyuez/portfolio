@@ -17,7 +17,6 @@
     padding-top: 2.5em;
     padding-left: 1em;
     padding-bottom: 1em;
-    font-size: 1em;
     max-width: 50%;
 }
 header {
@@ -89,6 +88,10 @@ svg {
   width: 15em;
   height: 20em;
 }
+.memory{
+  width: 27em;
+  height: 27em;
+}
 .quotesImg {
     flex: 1;
 }
@@ -134,7 +137,6 @@ svg {
     }
     .content {
         color: black;
-        font-size: 0.8em;
         padding-left: 2em;
         padding-bottom: 2em;
     }
@@ -208,7 +210,6 @@ svg {
     }
     .content {
         color: black;
-        font-size: 1em;
         padding-left: 2em;
         padding-bottom: 2em;
     }
@@ -269,6 +270,10 @@ svg {
         width: 50em;
         height: 35em;
     }
+    .memory{
+      width: 38em;
+      height: 38em;
+    }
     /*.quotesUmg img {
         border-radius: 50%;
         width: 80px;
@@ -284,7 +289,6 @@ svg {
     }
     .content {
         color: black;
-        font-size: 1em;
         padding-left: 2em;
         padding-bottom: 2em;
     }
@@ -327,8 +331,6 @@ svg {
 
 body {
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 300;
 }
 h1,
 h2,
@@ -338,9 +340,7 @@ h5,
 h6 {
     font-family: Raleway, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-h1 {
-    font-weight: 100;
-}
+
 h3 {
     line-height: 0px;
 }
@@ -354,7 +354,6 @@ p {
     border: 1px solid #391d18;
     color: white;
     padding: 6px 12px;
-    font-size: 10px;
     text-align: center;
     text-decoration: none;
 }
@@ -449,7 +448,6 @@ h2 {
     margin-left: 12px;
 }
 .smaller {
-    font-size: 80%;
     color: #999999;
 }
 footer {
@@ -468,9 +466,15 @@ footer a {
 .contentinfo-item a {
     float: right;
 }
-strong {
-  font-weight: bold;
+p strong {
+  font-weight: 1000;
+}
+b{
+  font-weight: bolder;
 }
 a{
   color:inherit;
+}
+.content h1, .content p{
+  color:white;
 }
