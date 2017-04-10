@@ -20,7 +20,10 @@
     max-width: 50%;
 }
 header {
-    background: linear-gradient(to bottom, #391d18, #814236);
+    /*background: linear-gradient(to bottom, #391d18, #814236);*/
+    background: url('../img/sea.jpg') no-repeat;
+    background-position: center bottom;
+    background-size: cover;
     padding-top: 2.5rem;
 }
 ul {
@@ -82,7 +85,7 @@ svg {
 }
 .firstPic, .secondPic {
     /*border-radius: 50%;*/
-    width: 30em;
+    max-width: 30em;
     height: 20em;
 }
 .thirdPic {
@@ -553,4 +556,26 @@ a{
 }
 .content h1, .content p{
   color:white;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

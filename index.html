@@ -18,11 +18,12 @@
 	<script>
 	  document.addEventListener('DOMContentLoaded', function(){
 	      Typed.new('.animate', {
-	        strings: ["a UX designer", "a Web Programmer", "a current UW student", "enthusiastic about tech", "Yuyue Zhu"],
-	        typeSpeed: 10,
-					startDelay: 1000,
-					backSpeed: 10,
-					backDelay: 1000,
+	        strings: ["a UX designer", "a Web Programmer", "a current UW student", "enthusiastic about tech", "Yuyue Zhu^5000"],
+	        typeSpeed: 50,
+					startDelay: 800,
+					backSpeed: 50,
+					backDelay: 1500,
+					loop: true
 	      });
 	  });
 	</script>
@@ -35,10 +36,9 @@
 
 			<div class="topMenu">
 				<ul>
-					<li><a href="#"><i class="fa fa-pencil" aria-hidden="true" aria-label="pencil icon"></i></a></li>
-					<li><a href="#features">Features</a></li>
-					<li><a href="#uses">Uses</a></li>
-					<li><a href="#quotes">Quotes</a></li>
+					<li><a href="#"><i class="fa fa-home" aria-hidden="true" aria-label="home icon"></i></a></li>
+					<li><a href="#uses">My works</a></li>
+					<li><a href="#contact">Contacts</a></li>
 					<li><a href="https://www.linkedin.com/in/yuyue-zhu-817b61ba/" target="_blank"><i class="fa fa-file-text" aria-hidden="true" aria-label="personal profile"></i></a></li>
 				</ul>
 			</div>
@@ -130,7 +130,7 @@
 		</div>
 		</div>
 
-	<footer role="contentinfo" class="contentinfo container">
+	<footer id="contact" role="contentinfo" class="contentinfo container">
 		<div class="contentinfo-flex">
 			<span class="contentinfo-item">&copy; 2016 Pencil Inc.</span>
 			<div class="icons contentinfo-icon footer-container">
