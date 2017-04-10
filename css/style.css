@@ -52,6 +52,7 @@ ul {
 .flex-column {
     flex-basis: auto;
     width: 100%;
+    background-color: #ebebeb;
 }
 .card {
     background-color: white;
@@ -467,38 +468,56 @@ h2 {
 .fifthUse,
 .sixthUse,
 .seventhUse {
-    background-color: white;
+    background-color: #c1bdbd;;
     border: 1px solid #dfdfdf;
     border-radius: 3px;
     margin-bottom: 1em;
     display: block;
 }
 .usesColor {
-    background-color: #ebebeb;
+    background-color: #fff;
 }
-.bookNote {
+.pencil {
     height: 150px;
-    background: url('../img/note-taking.jpg') no-repeat;
+    background: url('../img/pencil-snap.jpg') no-repeat;
     background-position: center;
     background-size: cover;
 }
-.art {
+.twitterSnap {
     height: 150px;
-    background: url('../img/art.jpg') no-repeat;
+    background: url('../img/twitter-snap.jpg') no-repeat;
     background-position: center;
     background-size: cover;
 }
-.drafting, .ad, .as {
+.memorySnap{
     height: 150px;
-    background: url('../img/drafting.jpg') no-repeat;
+    background: url('../img/memory-snap.jpg') no-repeat;
     background-position: center;
     background-size: cover;
 }
-.coloring {
+.dataSnap {
     height: 150px;
-    background: url('../img/coloring.jpg') no-repeat;
+    background: url('../img/data-snap.jpg') no-repeat;
     background-position: center;
     background-size: cover;
+}
+.chatSnap {
+  height: 150px;
+  background: url('../img/chat-snap.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.newsSnap {
+  height: 150px;
+  background: url('../img/news-snap.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.inviSnap{
+  height: 150px;
+  background: url('../img/invi-snap.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .textSpace {
     margin-top: 12px;
