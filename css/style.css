@@ -85,7 +85,7 @@ svg {
 }
 .firstPic, .secondPic {
     /*border-radius: 50%;*/
-    max-width: 30em;
+    width: 30em;
     height: 20em;
 }
 .thirdPic {
@@ -442,7 +442,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    background-color: white;
+    background-color: lightgrey;
 }
 .cart {
     float: right;
@@ -471,7 +471,7 @@ h2 {
 .fifthUse,
 .sixthUse,
 .seventhUse {
-    background-color: #c1bdbd;;
+    background-color: #aabfe2;;
     border: 1px solid #dfdfdf;
     border-radius: 3px;
     margin-bottom: 1em;
