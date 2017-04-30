@@ -55,7 +55,7 @@ ul {
 .flex-column {
     flex-basis: auto;
     width: 100%;
-    background-color: #ebebeb;
+    background-color: white;
 }
 .card {
     background-color: white;
@@ -471,8 +471,8 @@ h2 {
 .fifthUse,
 .sixthUse,
 .seventhUse {
-    background-color: #aabfe2;;
-    border: 1px solid #dfdfdf;
+    background-color: white;;
+    border: 0.75px solid #dfdfdf;
     border-radius: 3px;
     margin-bottom: 1em;
     display: block;
@@ -483,42 +483,49 @@ h2 {
 .pencil {
     height: 150px;
     background: url('../img/pencil-snap.jpg') no-repeat;
+    border: 0.5px solid #dfdfdf;
     background-position: center;
     background-size: cover;
 }
 .twitterSnap {
     height: 150px;
     background: url('../img/twitter-snap.jpg') no-repeat;
+    border: 0.5px solid #dfdfdf;
     background-position: center;
     background-size: cover;
 }
 .memorySnap{
     height: 150px;
     background: url('../img/memory-snap.jpg') no-repeat;
+    border: 0.5px solid #dfdfdf;
     background-position: center;
     background-size: cover;
 }
 .dataSnap {
     height: 150px;
     background: url('../img/data-snap.jpg') no-repeat;
+    border: 0.5px solid #dfdfdf;
     background-position: center;
     background-size: cover;
 }
 .chatSnap {
   height: 150px;
   background: url('../img/chat-snap.jpg') no-repeat;
+  border: 0.5px solid #dfdfdf;
   background-position: center;
   background-size: cover;
 }
 .newsSnap {
   height: 150px;
   background: url('../img/news-snap.jpg') no-repeat;
+  border: 0.5px solid #dfdfdf;
   background-position: center;
   background-size: cover;
 }
 .inviSnap{
   height: 150px;
   background: url('../img/invi-snap.jpg') no-repeat;
+  border: 0.5px solid #dfdfdf;
   background-position: center;
   background-size: cover;
 }
